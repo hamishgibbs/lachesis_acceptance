@@ -12,8 +12,8 @@ snakemake -j1 && snakemake --report output/report.html
 
 Creates:
 
-- An html report with runtimes for each visit detection method 
-- GeoJSON files for each visit method
+- An html report with runtimes for each visit detection method.
+- GeoJSON files for each visit detection method.
 
 ### Workflow Diagram
 
