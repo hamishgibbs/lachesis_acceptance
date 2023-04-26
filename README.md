@@ -10,6 +10,11 @@ Compares visits detected by lachesis to [`skmob.preprocessing.detection.stay_loc
 snakemake -j1 && snakemake --report output/report.html
 ```
 
+Creates:
+
+- An html report with runtimes for each visit detection method 
+- GeoJSON files for each visit method
+
 ### Workflow Diagram
 
 ![](./rulegraph.svg)
